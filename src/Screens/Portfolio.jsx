@@ -68,7 +68,7 @@ const currentYear = new Date().getFullYear();
         skil2.style.transform = 'translateY(300%)'; 
         Shr.style.width = '1%';
       }
-      if (scrollPosition >= 1500) {
+      if (scrollPosition >= 1300) {
         projects.style.transform = 'translateY(0%)';
         Phr.style.width = '90%';
       }
@@ -76,19 +76,19 @@ const currentYear = new Date().getFullYear();
         projects.style.transform = 'translateY(20vw)';
         Phr.style.width = '1%';
       }
-      if (scrollPosition >= 1600) {
+      if (scrollPosition >= 1400) {
         Coffee.style.transform = 'translateY(0vw)';
       }
       else {
         Coffee.style.transform = 'translateY(100%)';
       }
-      if (scrollPosition >= 2300) {
+      if (scrollPosition >= 1600) {
         Animixplay.style.transform = 'translateY(0vw)';
       }
       else {
         Animixplay.style.transform = 'translateY(100%)';
       }
-      if (scrollPosition >= 2600) {
+      if (scrollPosition >= 1800) {
         Merzci.style.transform = 'translateY(0vw)';
       }
       else {
@@ -160,12 +160,12 @@ const currentYear = new Date().getFullYear();
               <a href="https://byte-code-x.github.io/coffee/">Live view</a>
               <img src={coffe} alt="" /></div>
             <div id='Animixplay'><h2>Animixplay</h2> <p>
-              Animixplay is an anime streaming website I designed using HTML, CSS, and JavaScript, featuring a sleek and professional layout with smooth animations, responsive design, and interactive elements that enhance user engagement and provide a seamless viewing experience.
+              Animixplay is an anime streaming website, featuring a sleek with smooth animations, responsive design, and interactive elements that enhance user engagement and provide a seamless viewing experience.
               </p>
               <a href="https://byte-code-x.github.io/VD/">Live view</a>
               <img src={animixplay} alt="" /></div>
             <div id='Merzci'><h2>Merzci</h2> <p>
-              Merzci is an online ordering website I developed using HTML, CSS, and JavaScript, featuring a clean and professional design with smooth animations, intuitive navigation, and responsive layouts to make browsing products and placing orders easy and convenient for users.
+              Merzci is an online ordering website I developed with intuitive navigation, and responsive layouts to make browsing products and placing orders easy and convenient for users.
               </p>
               <a href="https://byte-code-x.github.io/MERZCI/">Live view</a>
               <img src={merzi} alt="" /></div>
